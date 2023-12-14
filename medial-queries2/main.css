@@ -1,3 +1,53 @@
+* {
+  border: 1px solid red;
+  box-sizing: border-box;
+}
+
 body {
   background: papayawhip;
+  margin: 0;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  min-height: 70vh;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex-grow: 5;
+  align-items: center;
+}
+
+.bulk {
+  flex-grow: 3;
+  margin: 5px;
+}
+
+.cards  {
+  display: flex;
+  min-height: 20vh;
+  width: 95%;
+  flex-grow: 1;
+  justify-content: space-around;
+}
+
+.cards div {
+  margin: 5px;
+  flex: 33%;
+}
+
+header, footer {
+  flex-grow: 1;
+  margin: 5px;
+  text-align: center;
+}
+
+@media (min-width: 600px) {
+  
 }
