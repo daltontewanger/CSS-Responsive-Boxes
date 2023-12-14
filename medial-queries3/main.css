@@ -1,3 +1,8 @@
+* {
+  border: 1px solid red;
+}
+
 body {
   background: peachpuff;
+  margin: 0;
 }
