@@ -40,4 +40,19 @@ header {
 
 .bulk {
   flex-grow: 3;
+  margin: 5px;
+}
+
+@media (min-width: 600px) {
+  .content {
+    flex-direction: row;
+  }
+  
+  .cards {
+    flex: 70%;
+  }
+
+  .bulk {
+    flex: 20%
+  }
 }
