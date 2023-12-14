@@ -5,4 +5,39 @@
 body {
   background: peachpuff;
   margin: 0;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+header {
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  min-height: 85vh;
+  flex-direction: column;
+}
+
+.cards {
+  display: flex;
+  flex-grow: 2;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cards div {
+  flex: 25%;
+  margin: 3px;
+}
+
+.bulk {
+  flex-grow: 3;
 }
